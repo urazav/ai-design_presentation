@@ -1,0 +1,59 @@
+/**
+ * Magnetiq Bank — Global Typography Styles
+ * Applies text styles from --text-* custom properties.
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap');
+
+h1 {
+  font-family: var(--font-heading);
+  font-size: var(--text-h1);
+  font-weight: 600;
+  line-height: 110%;
+  letter-spacing: var(--tracking-tight);
+  color: var(--text-heading);
+}
+
+h2 {
+  font-family: var(--font-heading);
+  font-size: var(--text-h2);
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: var(--tracking-normal);
+  color: var(--text-heading);
+}
+
+h3 {
+  font-family: var(--font-heading);
+  font-size: var(--text-h3);
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: var(--tracking-wide);
+  color: var(--text-heading);
+}
+
+h4 {
+  font-family: var(--font-heading);
+  font-size: var(--text-h4);
+  font-weight: 700;
+  line-height: 140%;
+  letter-spacing: var(--tracking-wide);
+  color: var(--text-heading);
+}
+
+p {
+  font-family: var(--font-body);
+  font-size: var(--text-body-l);
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: var(--tracking-wide);
+  color: var(--text-body);
+}
+
+small {
+  font-family: var(--font-body);
+  font-size: var(--text-label-s);
+  font-weight: 700;
+  line-height: 140%;
+  letter-spacing: var(--tracking-wide);
+}

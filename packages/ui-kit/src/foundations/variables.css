@@ -1,0 +1,91 @@
+/**
+ * Magnetiq Bank — CSS Custom Properties
+ * Generated from: packages/ui-kit/src/tokens/
+ *
+ * Usage:
+ *   import '@magnetiq/ui-kit/foundations/variables.css';
+ *   color: var(--action-primary);
+ */
+
+:root {
+  /* ── Primitives ────────────────────────────────── */
+  --color-black:            #000000;
+  --color-white:            #ffffff;
+
+  --color-violet-main:      #5100C0;
+  --color-violet-deep:      #280068;
+  --color-violet-bright:    #6B52FF;
+
+  --color-green-main:       #00D180;
+  --color-green-deep:       #009169;
+  --color-green-bright:     #45ED94;
+
+  --color-grey-dark:        #586977;
+  --color-grey-main:        #B4C3D3;
+  --color-grey-light:       #D1DDE8;
+  --color-grey-ultra-light: #EDF3F7;
+
+  /* ── Semantic — Light (default) ────────────────── */
+  --surface-primary:   var(--color-white);
+  --surface-secondary: var(--color-grey-ultra-light);
+
+  --action-primary:    var(--color-violet-main);
+  --action-success:    var(--color-green-main);
+
+  --text-heading:      var(--color-black);
+  --text-body:         var(--color-grey-dark);
+
+  --border-subtle:     var(--color-grey-light);
+
+  /* ── Gradients ─────────────────────────────────── */
+  --gradient-magnetic:      linear-gradient(135deg, var(--color-violet-main) 0%, var(--color-violet-bright) 50%, transparent 100%);
+  --gradient-magnetic-dark: linear-gradient(135deg, var(--color-violet-deep) 0%, var(--color-violet-main) 60%, transparent 100%);
+
+  /* ── Typography ────────────────────────────────── */
+  --font-heading: "Plus Jakarta Sans", system-ui, sans-serif;
+  --font-body:    "Manrope", system-ui, sans-serif;
+
+  --text-h1:      3rem;       /* 48px */
+  --text-h2:      2rem;       /* 32px */
+  --text-h3:      1.5rem;     /* 24px */
+  --text-h4:      1.125rem;   /* 18px */
+  --text-body-l:  1rem;       /* 16px */
+  --text-body-m:  0.875rem;   /* 14px */
+  --text-label-s: 0.75rem;    /* 12px */
+
+  --tracking-tight:  -0.01em; /* H1          */
+  --tracking-normal:  0em;    /* H2          */
+  --tracking-wide:    0.01em; /* H3/H4/body  */
+
+  /* ── Geometry / Radius ─────────────────────────── */
+  --radius-stability: 0px;
+  --radius-standard:  8px;
+  --radius-magnetic:  100px;
+
+  /* ── Spacing ───────────────────────────────────── */
+  --space-1:  4px;
+  --space-2:  8px;
+  --space-3:  12px;
+  --space-4:  16px;
+  --space-5:  20px;
+  --space-6:  24px;
+  --space-7:  28px;
+  --space-8:  32px;
+  --space-10: 40px;
+  --space-12: 48px;
+
+  /* ── Elevation / Shadows ───────────────────────── */
+  --shadow-sm:  0 2px 8px rgba(88, 105, 119, 0.08);
+  --shadow-md:  0 4px 16px rgba(88, 105, 119, 0.12);
+  --shadow-lg:  0 8px 24px rgba(88, 105, 119, 0.16);
+  --shadow-violet: 0 8px 24px rgba(81, 0, 192, 0.25);
+}
+
+/* ── Dark mode override ──────────────────────────── */
+[data-theme="dark"] {
+  --surface-primary:   var(--color-black);
+  --surface-secondary: var(--color-grey-dark);
+  --text-heading:      var(--color-white);
+  --text-body:         var(--color-grey-light);
+  --border-subtle:     var(--color-grey-dark);
+}

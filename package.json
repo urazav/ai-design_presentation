@@ -1,0 +1,19 @@
+{
+  "name": "ai-design-presentation",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Magnetiq Bank — Design System monorepo",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev":       "npm run dev       --workspace=packages/ui-kit",
+    "storybook": "npm run storybook --workspace=packages/ui-kit",
+    "build":     "npm run build     --workspace=packages/ui-kit",
+    "typecheck": "npm run typecheck --workspace=packages/ui-kit",
+    "lint":      "npm run lint      --workspace=packages/ui-kit"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
