@@ -16,3 +16,6 @@ export type { CardProps, CardVariant } from './components/Card';
 
 export { SignupModal } from './components/SignupModal';
 export type { SignupModalProps } from './components/SignupModal';
+
+export { DatePicker } from './components/DatePicker';
+export type { DatePickerProps, DatePickerState } from './components/DatePicker';
